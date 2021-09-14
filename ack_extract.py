@@ -18,8 +18,6 @@ def extract_acronyms(txt_str):
 
     return ack_list
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='ack_extract',
                                      usage='%(prog)s input-file output-file',
