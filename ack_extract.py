@@ -55,7 +55,7 @@ if __name__ == '__main__':
             for acro in out_list:
                 outfile.write(acro + "\n")
 
-        print(f'Acronyms Extracts: {len(out_list)}')
+        print(f'Acronyms Extracted: {len(out_list)}')
         print(f'Output File: {out_file_name}')
     else:
         print(f'Error: Unable to find input file: {args.in_file}')
