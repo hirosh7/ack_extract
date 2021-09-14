@@ -30,7 +30,6 @@ if __name__ == '__main__':
 
     if exists(args.in_file):
 
-        # sample_text = "The CIA has all of the URLs of every site the USAF wants to vet F.B.I."
         sample_text = textract.process(args.in_file)
 
         # Convert from binary string to string
