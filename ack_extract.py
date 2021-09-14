@@ -14,7 +14,7 @@ def extract_acronyms(txt_str):
     :return: List of acronyms
     """
 
-    ack_list = re.findall(r"\b[A-Z\.]{2,}s?\b", txt_str)
+    ack_list = re.findall(r"\b[0-9]*[A-Z\.]{2,}s?\b", txt_str)
 
     return ack_list
 
